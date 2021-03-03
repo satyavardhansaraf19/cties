@@ -1,0 +1,95 @@
+
+/* ATI Res - Bootstrap dependency - Green- ATIIT*/
+.atiRes, .globalCountry .navbar-nav { border: 4px solid #D1E7B7; font-size: 12px; position:absolute;right: 10px; z-index: 10; margin-left: 7px;margin-right: 0 !important;}
+.atiRes .dropdown, .globalCountry .dropdown{ z-index: 10; }
+.atiRes .dropdown > a, .atiRes .dropdown > a:hover, .atiRes .dropdown.open > a:focus, .atiRes .dropdown.open > a{ padding: 8px 20px; color: #000;background-color: #f2f8e9; font-weight:normal; display: block;}
+.globalCountry .dropdown > a, .globalCountry .dropdown > a:hover, .globalCountry .dropdown.open > a:focus, .globalCountry .dropdown.open > a{ padding: 8px 20px; color: #000;background-color: #f2f8e9; font-weight:normal; display: block;}
+.atiRes .dropdown-menu, .globalCountry .dropdown-menu{ min-width: 480px;margin-right: -4px;background-color: #f2f8e9 !important; position:absolute;z-index: -1; top: 26px; padding-right: 25px;}
+.atiRes .dropdown-menu ul, .globalCountry .dropdown-menu ul{padding-left: 0; color: #000 !important; font-size: 12px;font-weight: bold; list-style: none;margin-bottom: 10px;}
+.atiRes .dropdown-menu ul li, .globalCountry .dropdown-menu ul li {margin:10px 0 0 0; margin-left: 27px; padding: 2px 0 2px 5px; width: 27%; height: 60px; float: left;}
+.atiRes .dropdown-menu ul li.active, .globalCountry .dropdown-menu ul li.active{background-color: #D1E7B7;}
+.atiRes  .open .dropdown-menu, .globalCountry .open .dropdown-menu{ border: 4px solid #D1E7B7 !important;}
+.atiRes .language a, .atiRes .language .pipe, .globalCountry .language a, .globalCountry .language .pipe{color: #8a929b; font-weight: normal; font-size: 11px;}
+.atiRes .language a:hover, .globalCountry .language a:hover{text-decoration: underline;}
+
+/* ATI Res in Black (ATISGR)*/
+.black .atiRes {border: none; font-size: 12px; margin-left: 7px; margin-right: 0 !important; position: absolute; right: 10px; z-index: 10; }
+.black .atiRes .dropdown > a, .black .atiRes .dropdown > a:hover, .black .atiRes .dropdown.open > a:focus, .black .atiRes .dropdown.open > a {background-color:#f5f5f5 ; padding: 5px 20px; text-decoration: none;}
+.black .atiRes .dropdown-menu{background-color: #333333 !important;}
+.black .atiRes .dropdown-menu ul{color: #fff !important;}
+.black .atiRes .open .dropdown-menu{border: none !important;}
+.black .atiRes .language a, .black .atiRes .language .pipe{color: #99cc01;}
+.black .atiRes .dropdown-menu ul li.active {background-color: #006aa2 !important;}
+
+/* CTI in white (CTIMY)*/
+.globalCountry .white.navbar-nav {border: none; font-size: 12px; margin-left: 7px; margin-right: 0 !important; position: absolute; right: 10px; z-index: 10; }
+.globalCountry .white .dropdown > a, .globalCountry .white .dropdown > a:hover, .globalCountry .white .dropdown.open > a:focus, .globalCountry .white .dropdown.open > a {background-color:transparent; ; padding: 5px 20px; text-decoration: underline;}
+.globalCountry .white .dropdown-menu{background-color: #fff !important;border-radius:0;min-width: 820px;}
+.globalCountry .white .dropdown-menu ul{color: #707070 !important;}
+.globalCountry .white .open .dropdown-menu{ border: 2px solid #efefef!important;}
+.globalCountry .white .dropdown-menu ul li {width: 16%;  padding: 10px 0 10px 5px;}
+.globalCountry .white .language a, .globalCountry .white .language .pipe{color: #707070;}
+.globalCountry .white .dropdown-menu ul li.active {background-color: #20C1D3 !important;}
+
+.atiFb { width: 520px; background-color: #333333; border: 1px solid #fff; color: #fff; padding: 20px; font-weight: bold; font-size: 13px; padding-bottom: 30px;}
+.atiFb ul{float: none;}
+.atiFb li{width: 150px; float: left; margin-top: 10px; margin-left:10px;padding: 5px;height: 35px;}
+.atiFb li.active {background-color: #006699}
+.atiFb .header{padding:10px;}
+.atiFb .language {padding-top: 3px;}
+.atiFb a{color: #9cc900; text-decoration: none; font-size: 11px;}
+.atiFb a:hover{text-decoration: underline;}
+.atiFb .pipe{font-size: 11px;}
+
+/* only on extra small sceens */
+@media (max-width: 767px) {
+	/* ATI Res  - Bootstrap dependency */
+	.atiRes, .globalCountry .navbar-nav {position: relative; margin-right: -15px;}
+	.atiRes .dropdown-menu, .globalCountry .dropdown-menu{min-width: 0 !important; padding-left: 15px; padding-right: 15px;margin-right:0}
+	.atiRes .open .dropdown-menu, .globalCountry .open .dropdown-menu {border: 0 !important; background-color: #f2f8e9; }
+	.atiRes .dropdown-menu ul li, .globalCountry .dropdown-menu ul li{ width: 47% !important; margin-left: 0;}
+	.atiRes .dropdown-menu ul li.active, .globalCountry .dropdown-menu ul li.active{padding-right: 5px;}
+	.black .atiRes, .white .atiRes { position: relative; }
+}
+
+@media (max-width: 992px) {
+	.white .dropdown-menu{min-width: 0 !important;}
+}
+
+.flag-au div:first-child{background: url(../images/flag_aus_lg.png) no-repeat top left;}
+.flag-br div:first-child{background: url(../images/flag_br_lg.png) no-repeat top left;}
+.flag-es div:first-child{background: url(../images/flag_es_lg.png) no-repeat top left;}
+.flag-hk div:first-child{background: url(../images/flag_hk_lg.png) no-repeat top left;}
+.flag-id div:first-child{background: url(../images/flag_id_lg.png) no-repeat top left;}
+.flag-ie div:first-child{background: url(../images/flag_ie_lg.png) no-repeat top left;}
+.flag-it div:first-child{background: url(../images/flag_it_lg.png) no-repeat top left;}
+.flag-jp div:first-child{background: url(../images/flag_jp_lg.png) no-repeat top left;}
+.flag-my div:first-child{background: url(../images/flag_my_lg.png) no-repeat top left;}
+.flag-mx div:first-child{background: url(../images/flag_mx_lg.png) no-repeat top left;}
+.flag-nz div:first-child{background: url(../images/flag_nz_lg.png) no-repeat top left;}
+.flag-eg div:first-child{background: url(../images/flag_eg_lg.png) no-repeat top left;}
+.flag-sa div:first-child{background: url(../images/flag_sa_lg.png) no-repeat top left;}
+.flag-sg div:first-child{background: url(../images/flag_sg_lg.png) no-repeat top left;}
+.flag-saf div:first-child{background: url(../images/flag_saf_lg.png) no-repeat top left;}
+.flag-kr div:first-child{background: url(../images/flag_kr_lg.png) no-repeat top left;}
+.flag-tw div:first-child{background: url(../images/flag_tw_lg.png) no-repeat top left;}
+.flag-th div:first-child{background: url(../images/flag_th_lg.png) no-repeat top left;}
+.flag-uk div:first-child{background: url(../images/flag_uk_lg.png) no-repeat top left;}
+.flag-ch div:first-child{background: url(../images/flag_ch_lg.png) no-repeat top left;}
+.flag-ph div:first-child{background: url(../images/flag_ph_lg.png) no-repeat top left;}
+.flag-vn div:first-child{background: url(../images/flag_vn_lg.png) no-repeat top left;}
+.flag-us div:first-child{background: url(../images/flag_us_lg.png) no-repeat top left;}
+.flag-fi div:first-child{background: url(../images/flag_fi_lg.png) no-repeat top left;}
+.flag-jo div:first-child{background: url(../images/flag_jo_lg.png) no-repeat top left;}
+.flag-ae div:first-child{background: url(../images/flag_ae_lg.png) no-repeat top left;}
+.flag-ca div:first-child{background: url(../images/flag_ca_lg.png) no-repeat top left;}
+.flag-fr div:first-child{background: url(../images/flag_fr_lg.png) no-repeat top left;}
+.global div:first-child {background: url(../images/flag_global_lg.png) no-repeat top left;}
+.globalCountry li div, .atiFb li div{padding-left: 25px;}
+.atiFb .global div {padding-left: 0}
+
+/*Hide Taiwan English version link and pipe from global country selection - Temporary*/
+/*#CTITW .pipe, #CTITW .language a:nth-child(3), */
+#ATITW .pipe, #ATITW .language a:nth-child(3) {
+    display: none;
+}
